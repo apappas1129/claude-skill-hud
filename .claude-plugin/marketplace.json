@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "claude-skill-hud",
+  "description": "A minimalist status-line HUD that shows which skills Claude invoked while working on your prompt.",
+  "owner": {
+    "name": "claude-skill-hud contributors"
+  },
+  "plugins": [
+    {
+      "name": "claude-skill-hud",
+      "source": "./",
+      "description": "A minimalist status-line HUD that shows which skills Claude invoked while working on your prompt."
+    }
+  ]
+}
