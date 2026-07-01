@@ -38,7 +38,7 @@ Timing note: the HUD updates **after** a skill's tool call completes, not the in
 ## Install
 
 ```
-/plugin marketplace add <your-username>/claude-skill-hud
+/plugin marketplace add apappas1129/claude-skill-hud
 /plugin install claude-skill-hud@claude-skill-hud
 ```
 

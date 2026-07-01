@@ -8,5 +8,6 @@
     "name": "claude-skill-hud contributors"
   },
   "license": "MIT",
+  "repository": "https://github.com/apappas1129/claude-skill-hud",
   "keywords": ["status-line", "hooks", "skills", "observability", "hud"]
 }
