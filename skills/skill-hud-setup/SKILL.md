@@ -45,14 +45,17 @@ machine:
    ```json
    "statusLine": {
      "type": "command",
-     "command": "CLAUDE_PLUGIN_DATA=\"${CLAUDE_PLUGIN_DATA}\" \"${CLAUDE_PLUGIN_ROOT}/scripts/statusline.sh\""
+     "command": "CLAUDE_PLUGIN_DATA=\"${CLAUDE_PLUGIN_DATA}\" \"${CLAUDE_PLUGIN_ROOT}/scripts/statusline.sh\"",
+     "refreshInterval": 2
    }
    ```
 
    The `CLAUDE_PLUGIN_DATA=...` prefix is required: the main status line
    runs outside the plugin hook/MCP substitution system, so this is the one
    place that env var has to be set explicitly rather than relying on
-   automatic injection.
+   automatic injection. `refreshInterval` is a safety net on top of the
+   normal event-driven refresh (after each assistant message) — it forces a
+   re-render every 2 seconds so the HUD can't visibly linger stale.
 
 4. Write the updated settings file back, preserving existing formatting and
    keys as much as possible.

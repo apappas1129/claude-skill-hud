@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "claude-skill-hud",
   "displayName": "Claude Skill HUD",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A minimalist status-line HUD that shows which skills Claude invoked while working on your prompt.",
   "author": {
     "name": "claude-skill-hud contributors"
