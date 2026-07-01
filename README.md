@@ -1,5 +1,9 @@
 # Claude Skill HUD
 
+[![License: MIT](https://img.shields.io/github/license/apappas1129/claude-skill-hud)](./LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/apappas1129/claude-skill-hud?style=flat)](https://github.com/apappas1129/claude-skill-hud/stargazers)
+[![Plugin version](https://img.shields.io/github/v/tag/apappas1129/claude-skill-hud?label=version)](./.claude-plugin/plugin.json)
+
 A minimalist status-line HUD for [Claude Code](https://claude.com/claude-code) that shows which skills Claude invoked while working on your prompt.
 
 ```
